@@ -1,0 +1,615 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		386EF96B2C72216E00440CD8 /* Beep.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 386EF96A2C72216E00440CD8 /* Beep.mp3 */; };
+		38E37D232C70CDC4008BA13F /* Magic_PacemakerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E37D222C70CDC4008BA13F /* Magic_PacemakerApp.swift */; };
+		38E37D252C70CDC4008BA13F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E37D242C70CDC4008BA13F /* ContentView.swift */; };
+		38E37D272C70CDC6008BA13F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38E37D262C70CDC6008BA13F /* Assets.xcassets */; };
+		38E37D2A2C70CDC6008BA13F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38E37D292C70CDC6008BA13F /* Preview Assets.xcassets */; };
+		38E37D342C70CDC6008BA13F /* Magic_PacemakerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E37D332C70CDC6008BA13F /* Magic_PacemakerTests.swift */; };
+		38E37D3E2C70CDC6008BA13F /* Magic_PacemakerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E37D3D2C70CDC6008BA13F /* Magic_PacemakerUITests.swift */; };
+		38E37D402C70CDC6008BA13F /* Magic_PacemakerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E37D3F2C70CDC6008BA13F /* Magic_PacemakerUITestsLaunchTests.swift */; };
+		38E37D4D2C70CE7F008BA13F /* SingleSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E37D4C2C70CE7F008BA13F /* SingleSlider.swift */; };
+		38E37D4F2C70CEAB008BA13F /* SoundSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E37D4E2C70CEAB008BA13F /* SoundSlider.swift */; };
+		38E37D512C70CF59008BA13F /* Magic Pacemaker.storekit in Resources */ = {isa = PBXBuildFile; fileRef = 38E37D502C70CF59008BA13F /* Magic Pacemaker.storekit */; };
+		38E37D532C70CFE1008BA13F /* PaywallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E37D522C70CFE1008BA13F /* PaywallView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		38E37D302C70CDC6008BA13F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 38E37D172C70CDC4008BA13F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 38E37D1E2C70CDC4008BA13F;
+			remoteInfo = "Magic Pacemaker";
+		};
+		38E37D3A2C70CDC6008BA13F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 38E37D172C70CDC4008BA13F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 38E37D1E2C70CDC4008BA13F;
+			remoteInfo = "Magic Pacemaker";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		386EF96A2C72216E00440CD8 /* Beep.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Beep.mp3; sourceTree = "<group>"; };
+		38E37D1F2C70CDC4008BA13F /* Magic Pacemaker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Magic Pacemaker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		38E37D222C70CDC4008BA13F /* Magic_PacemakerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Magic_PacemakerApp.swift; sourceTree = "<group>"; };
+		38E37D242C70CDC4008BA13F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		38E37D262C70CDC6008BA13F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		38E37D292C70CDC6008BA13F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		38E37D2F2C70CDC6008BA13F /* Magic PacemakerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Magic PacemakerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		38E37D332C70CDC6008BA13F /* Magic_PacemakerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Magic_PacemakerTests.swift; sourceTree = "<group>"; };
+		38E37D392C70CDC6008BA13F /* Magic PacemakerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Magic PacemakerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		38E37D3D2C70CDC6008BA13F /* Magic_PacemakerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Magic_PacemakerUITests.swift; sourceTree = "<group>"; };
+		38E37D3F2C70CDC6008BA13F /* Magic_PacemakerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Magic_PacemakerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		38E37D4C2C70CE7F008BA13F /* SingleSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleSlider.swift; sourceTree = "<group>"; };
+		38E37D4E2C70CEAB008BA13F /* SoundSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundSlider.swift; sourceTree = "<group>"; };
+		38E37D502C70CF59008BA13F /* Magic Pacemaker.storekit */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Magic Pacemaker.storekit"; sourceTree = "<group>"; };
+		38E37D522C70CFE1008BA13F /* PaywallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaywallView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		38E37D1C2C70CDC4008BA13F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38E37D2C2C70CDC6008BA13F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38E37D362C70CDC6008BA13F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		38E37D162C70CDC4008BA13F = {
+			isa = PBXGroup;
+			children = (
+				38E37D212C70CDC4008BA13F /* Magic Pacemaker */,
+				38E37D322C70CDC6008BA13F /* Magic PacemakerTests */,
+				38E37D3C2C70CDC6008BA13F /* Magic PacemakerUITests */,
+				38E37D202C70CDC4008BA13F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		38E37D202C70CDC4008BA13F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				38E37D1F2C70CDC4008BA13F /* Magic Pacemaker.app */,
+				38E37D2F2C70CDC6008BA13F /* Magic PacemakerTests.xctest */,
+				38E37D392C70CDC6008BA13F /* Magic PacemakerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		38E37D212C70CDC4008BA13F /* Magic Pacemaker */ = {
+			isa = PBXGroup;
+			children = (
+				386EF96A2C72216E00440CD8 /* Beep.mp3 */,
+				38E37D222C70CDC4008BA13F /* Magic_PacemakerApp.swift */,
+				38E37D242C70CDC4008BA13F /* ContentView.swift */,
+				38E37D4C2C70CE7F008BA13F /* SingleSlider.swift */,
+				38E37D4E2C70CEAB008BA13F /* SoundSlider.swift */,
+				38E37D502C70CF59008BA13F /* Magic Pacemaker.storekit */,
+				38E37D522C70CFE1008BA13F /* PaywallView.swift */,
+				38E37D262C70CDC6008BA13F /* Assets.xcassets */,
+				38E37D282C70CDC6008BA13F /* Preview Content */,
+			);
+			path = "Magic Pacemaker";
+			sourceTree = "<group>";
+		};
+		38E37D282C70CDC6008BA13F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				38E37D292C70CDC6008BA13F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		38E37D322C70CDC6008BA13F /* Magic PacemakerTests */ = {
+			isa = PBXGroup;
+			children = (
+				38E37D332C70CDC6008BA13F /* Magic_PacemakerTests.swift */,
+			);
+			path = "Magic PacemakerTests";
+			sourceTree = "<group>";
+		};
+		38E37D3C2C70CDC6008BA13F /* Magic PacemakerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				38E37D3D2C70CDC6008BA13F /* Magic_PacemakerUITests.swift */,
+				38E37D3F2C70CDC6008BA13F /* Magic_PacemakerUITestsLaunchTests.swift */,
+			);
+			path = "Magic PacemakerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		38E37D1E2C70CDC4008BA13F /* Magic Pacemaker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38E37D432C70CDC6008BA13F /* Build configuration list for PBXNativeTarget "Magic Pacemaker" */;
+			buildPhases = (
+				38E37D1B2C70CDC4008BA13F /* Sources */,
+				38E37D1C2C70CDC4008BA13F /* Frameworks */,
+				38E37D1D2C70CDC4008BA13F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Magic Pacemaker";
+			productName = "Magic Pacemaker";
+			productReference = 38E37D1F2C70CDC4008BA13F /* Magic Pacemaker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		38E37D2E2C70CDC6008BA13F /* Magic PacemakerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38E37D462C70CDC6008BA13F /* Build configuration list for PBXNativeTarget "Magic PacemakerTests" */;
+			buildPhases = (
+				38E37D2B2C70CDC6008BA13F /* Sources */,
+				38E37D2C2C70CDC6008BA13F /* Frameworks */,
+				38E37D2D2C70CDC6008BA13F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				38E37D312C70CDC6008BA13F /* PBXTargetDependency */,
+			);
+			name = "Magic PacemakerTests";
+			productName = "Magic PacemakerTests";
+			productReference = 38E37D2F2C70CDC6008BA13F /* Magic PacemakerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		38E37D382C70CDC6008BA13F /* Magic PacemakerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38E37D492C70CDC6008BA13F /* Build configuration list for PBXNativeTarget "Magic PacemakerUITests" */;
+			buildPhases = (
+				38E37D352C70CDC6008BA13F /* Sources */,
+				38E37D362C70CDC6008BA13F /* Frameworks */,
+				38E37D372C70CDC6008BA13F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				38E37D3B2C70CDC6008BA13F /* PBXTargetDependency */,
+			);
+			name = "Magic PacemakerUITests";
+			productName = "Magic PacemakerUITests";
+			productReference = 38E37D392C70CDC6008BA13F /* Magic PacemakerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		38E37D172C70CDC4008BA13F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					38E37D1E2C70CDC4008BA13F = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					38E37D2E2C70CDC6008BA13F = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 38E37D1E2C70CDC4008BA13F;
+					};
+					38E37D382C70CDC6008BA13F = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 38E37D1E2C70CDC4008BA13F;
+					};
+				};
+			};
+			buildConfigurationList = 38E37D1A2C70CDC4008BA13F /* Build configuration list for PBXProject "Magic Pacemaker" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 38E37D162C70CDC4008BA13F;
+			packageReferences = (
+			);
+			productRefGroup = 38E37D202C70CDC4008BA13F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				38E37D1E2C70CDC4008BA13F /* Magic Pacemaker */,
+				38E37D2E2C70CDC6008BA13F /* Magic PacemakerTests */,
+				38E37D382C70CDC6008BA13F /* Magic PacemakerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		38E37D1D2C70CDC4008BA13F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38E37D512C70CF59008BA13F /* Magic Pacemaker.storekit in Resources */,
+				38E37D2A2C70CDC6008BA13F /* Preview Assets.xcassets in Resources */,
+				386EF96B2C72216E00440CD8 /* Beep.mp3 in Resources */,
+				38E37D272C70CDC6008BA13F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38E37D2D2C70CDC6008BA13F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38E37D372C70CDC6008BA13F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		38E37D1B2C70CDC4008BA13F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38E37D4F2C70CEAB008BA13F /* SoundSlider.swift in Sources */,
+				38E37D4D2C70CE7F008BA13F /* SingleSlider.swift in Sources */,
+				38E37D532C70CFE1008BA13F /* PaywallView.swift in Sources */,
+				38E37D252C70CDC4008BA13F /* ContentView.swift in Sources */,
+				38E37D232C70CDC4008BA13F /* Magic_PacemakerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38E37D2B2C70CDC6008BA13F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38E37D342C70CDC6008BA13F /* Magic_PacemakerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38E37D352C70CDC6008BA13F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38E37D402C70CDC6008BA13F /* Magic_PacemakerUITestsLaunchTests.swift in Sources */,
+				38E37D3E2C70CDC6008BA13F /* Magic_PacemakerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		38E37D312C70CDC6008BA13F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 38E37D1E2C70CDC4008BA13F /* Magic Pacemaker */;
+			targetProxy = 38E37D302C70CDC6008BA13F /* PBXContainerItemProxy */;
+		};
+		38E37D3B2C70CDC6008BA13F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 38E37D1E2C70CDC4008BA13F /* Magic Pacemaker */;
+			targetProxy = 38E37D3A2C70CDC6008BA13F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		38E37D412C70CDC6008BA13F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		38E37D422C70CDC6008BA13F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		38E37D442C70CDC6008BA13F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Magic Pacemaker/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nagel.magicpacemaker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		38E37D452C70CDC6008BA13F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Magic Pacemaker/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nagel.magicpacemaker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		38E37D472C70CDC6008BA13F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nagel.Magic-PacemakerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Magic Pacemaker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Magic Pacemaker";
+			};
+			name = Debug;
+		};
+		38E37D482C70CDC6008BA13F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nagel.Magic-PacemakerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Magic Pacemaker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Magic Pacemaker";
+			};
+			name = Release;
+		};
+		38E37D4A2C70CDC6008BA13F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nagel.Magic-PacemakerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Magic Pacemaker";
+			};
+			name = Debug;
+		};
+		38E37D4B2C70CDC6008BA13F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nagel.Magic-PacemakerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Magic Pacemaker";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		38E37D1A2C70CDC4008BA13F /* Build configuration list for PBXProject "Magic Pacemaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38E37D412C70CDC6008BA13F /* Debug */,
+				38E37D422C70CDC6008BA13F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38E37D432C70CDC6008BA13F /* Build configuration list for PBXNativeTarget "Magic Pacemaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38E37D442C70CDC6008BA13F /* Debug */,
+				38E37D452C70CDC6008BA13F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38E37D462C70CDC6008BA13F /* Build configuration list for PBXNativeTarget "Magic PacemakerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38E37D472C70CDC6008BA13F /* Debug */,
+				38E37D482C70CDC6008BA13F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38E37D492C70CDC6008BA13F /* Build configuration list for PBXNativeTarget "Magic PacemakerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38E37D4A2C70CDC6008BA13F /* Debug */,
+				38E37D4B2C70CDC6008BA13F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 38E37D172C70CDC4008BA13F /* Project object */;
+}
