@@ -42,16 +42,17 @@ struct SingleSlider: View {
                             Text(title).foregroundStyle(Color.accentColor)
                                 .matchedGeometryEffect(id: "label", in: namespace)
                                 .transition(.move(edge: .bottom).animation(.smooth))
+                                .padding(.top, 10)
                         }
                     }
             }
             .overlay{
-                RoundedRectangle(cornerRadius: 10).stroke(Color.primary, lineWidth: 5)
+                RoundedRectangle(cornerRadius: 30).stroke(Color.primary, lineWidth: 10)
             }
             .onChange(of: height, initial: true){
                 self.height = height
             }
-                .clipShape(.rect(cornerRadius: 10))
+                .clipShape(.rect(cornerRadius: 30))
                 .gesture(DragGesture()
                     .onChanged{ val in
                         let translation = -(val.translation.height)

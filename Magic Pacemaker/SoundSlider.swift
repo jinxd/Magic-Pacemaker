@@ -8,10 +8,9 @@
 import SwiftUI
 import AVFoundation
 
-@Observable
 class SoundManager{
-    var volume = 0.75
-    var frequency = 4.0
+    @AppStorage("volume") var volume = 0.75
+    @AppStorage("frequency") var frequency = 4.0
     private let player : AVAudioPlayer
     private let player2 : AVAudioPlayer
     
@@ -58,11 +57,13 @@ class SoundManager{
 }
 
 struct SoundSlider: View {
-    @State var soundManager = SoundManager()!
+    let soundManager = SoundManager()!
+    @AppStorage("volume") var volume = 0.75
+    @AppStorage("frequency") var frequency = 4.0
     var body: some View{
         HStack{
-            SingleSlider("Volume", value: $soundManager.volume, in: 0...1)
-            SingleSlider("Frequency", value: $soundManager.frequency, in: 1...5)
+            SingleSlider("Volume", value: $volume, in: 0...1)
+            SingleSlider("Frequency", value: $frequency, in: 1...5)
         }
     }
 }

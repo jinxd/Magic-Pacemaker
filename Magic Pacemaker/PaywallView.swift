@@ -63,9 +63,20 @@ struct PaywallView: View {
             SubscriptionStoreView(groupID: "magicians")
                 .subscriptionStoreControlStyle(.automatic)
         } else {
-            VStack{
+            NavigationStack{
                 Text("You are subscribed")
                     .manageSubscriptionsSheet(isPresented: .constant(true), subscriptionGroupID: "magicians")
+                    .toolbar {
+                        ToolbarItem(placement: .cancellationAction) {
+                            Button{
+                                dismiss()
+                            } label: {
+                                Image(systemName: "xmark")
+                            }
+                            .buttonStyle(.bordered)
+                            .buttonBorderShape(.circle)
+                        }
+                    }
 
             }
         }

@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		386EF96B2C72216E00440CD8 /* Beep.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 386EF96A2C72216E00440CD8 /* Beep.mp3 */; };
+		386EF96D2C722C7000440CD8 /* Beep.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 386EF96C2C722C7000440CD8 /* Beep.mp3 */; };
+		386EF9722C722FE000440CD8 /* OnBoardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386EF9712C722FE000440CD8 /* OnBoardingView.swift */; };
 		38E37D232C70CDC4008BA13F /* Magic_PacemakerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E37D222C70CDC4008BA13F /* Magic_PacemakerApp.swift */; };
 		38E37D252C70CDC4008BA13F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E37D242C70CDC4008BA13F /* ContentView.swift */; };
 		38E37D272C70CDC6008BA13F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38E37D262C70CDC6008BA13F /* Assets.xcassets */; };
@@ -39,7 +40,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		386EF96A2C72216E00440CD8 /* Beep.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Beep.mp3; sourceTree = "<group>"; };
+		386EF96C2C722C7000440CD8 /* Beep.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Beep.mp3; sourceTree = "<group>"; };
+		386EF96E2C722E7700440CD8 /* Magic-Pacemaker-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Magic-Pacemaker-Info.plist"; sourceTree = SOURCE_ROOT; };
+		386EF9712C722FE000440CD8 /* OnBoardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingView.swift; sourceTree = "<group>"; };
 		38E37D1F2C70CDC4008BA13F /* Magic Pacemaker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Magic Pacemaker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		38E37D222C70CDC4008BA13F /* Magic_PacemakerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Magic_PacemakerApp.swift; sourceTree = "<group>"; };
 		38E37D242C70CDC4008BA13F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -104,9 +107,11 @@
 		38E37D212C70CDC4008BA13F /* Magic Pacemaker */ = {
 			isa = PBXGroup;
 			children = (
-				386EF96A2C72216E00440CD8 /* Beep.mp3 */,
+				386EF96E2C722E7700440CD8 /* Magic-Pacemaker-Info.plist */,
+				386EF96C2C722C7000440CD8 /* Beep.mp3 */,
 				38E37D222C70CDC4008BA13F /* Magic_PacemakerApp.swift */,
 				38E37D242C70CDC4008BA13F /* ContentView.swift */,
+				386EF9712C722FE000440CD8 /* OnBoardingView.swift */,
 				38E37D4C2C70CE7F008BA13F /* SingleSlider.swift */,
 				38E37D4E2C70CEAB008BA13F /* SoundSlider.swift */,
 				38E37D502C70CF59008BA13F /* Magic Pacemaker.storekit */,
@@ -250,7 +255,7 @@
 			files = (
 				38E37D512C70CF59008BA13F /* Magic Pacemaker.storekit in Resources */,
 				38E37D2A2C70CDC6008BA13F /* Preview Assets.xcassets in Resources */,
-				386EF96B2C72216E00440CD8 /* Beep.mp3 in Resources */,
+				386EF96D2C722C7000440CD8 /* Beep.mp3 in Resources */,
 				38E37D272C70CDC6008BA13F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -279,6 +284,7 @@
 				38E37D4F2C70CEAB008BA13F /* SoundSlider.swift in Sources */,
 				38E37D4D2C70CE7F008BA13F /* SingleSlider.swift in Sources */,
 				38E37D532C70CFE1008BA13F /* PaywallView.swift in Sources */,
+				386EF9722C722FE000440CD8 /* OnBoardingView.swift in Sources */,
 				38E37D252C70CDC4008BA13F /* ContentView.swift in Sources */,
 				38E37D232C70CDC4008BA13F /* Magic_PacemakerApp.swift in Sources */,
 			);
@@ -444,8 +450,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Magic Pacemaker/Preview Content\"";
+				DEVELOPMENT_TEAM = X5933694SW;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Magic-Pacemaker-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -475,8 +483,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Magic Pacemaker/Preview Content\"";
+				DEVELOPMENT_TEAM = X5933694SW;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Magic-Pacemaker-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
